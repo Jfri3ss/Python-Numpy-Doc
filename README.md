@@ -1,5 +1,3 @@
-Sure, here are the common interview questions and answers for a Nursing RN position, formatted without markdown for easy copying:
-
 1. **Tell me about a time you had a conflict with a coworker. How did you handle it?**
 
    **Tip:** Emphasize your communication skills, professionalism, and ability to resolve conflicts amicably.
