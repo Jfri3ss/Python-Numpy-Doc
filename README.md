@@ -1,5 +1,5 @@
 ---
-Title: 'NumPy cos'
+Title: 'numpy cos'
 Description: 'Returns the cos of the argument.'
 Subjects:
   - 'Computer Science'
