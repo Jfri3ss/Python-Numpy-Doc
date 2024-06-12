@@ -1,9 +1,9 @@
 ---
-Title: Using and Defining Custom Colors in SwiftUI #4495
-Description: Brief, one-sentence description of the doc.
-Subjects: Relevant subject in list form (computer science, web dev, app dev, etc...).
-Tags: Relevant tags in list form.
-CatalogContent: Relevant catalog content in list form.
+Title: Python numpy cos function
+Description: Code example of Python numpy cos 
+Subjects: computer science, data science, machine learning
+Tags: Python, numpy, cos, numpy cos, python math
+CatalogContent: Introduction to NumPy, Mathematical Functions in NumPy, Python Math Libraries
 ---
 
 
