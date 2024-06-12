@@ -7,7 +7,7 @@ CatalogContent: Relevant catalog content in list form.
 ---
 
 
-#Python Code Example
+# Python Code Example
 
 ````
 codebyte/python
