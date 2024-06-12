@@ -53,10 +53,7 @@ Result of cos: [0, 0.78539816, 1.57079633, 3.14159265]
 
 5. This code snippet demonstrates how to use the np.cos() function to calculate the cosine of given angles in radians, showcasing NumPy's ability to handle array operations efficiently.
 
-
-## Basic Categories of Math Methods
-
-## Trigonometric Functions
+## Numpy Trigonometric Functions
 
 - Sine numpy.sin(): Computes the sine of each element in the array.
 - Cosine numpy.cos(): Computes the cosine of each element in the array.
