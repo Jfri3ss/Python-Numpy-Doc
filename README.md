@@ -13,7 +13,7 @@ CatalogContent:
 
 # NumPy cos
 
-In NumPy, the `cos` function is used to compute the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in fields such as physics, engineering, computer graphics, and signal processing. By applying the `cos` function element-wise, NumPy enables efficient and fast calculations on large datasets, making it an indispensable tool for scientific computing, data analysis, and machine learning. The ability to handle arrays and perform operations like cosine transformations with ease underscores NumPy's pivotal role in scientific research, engineering, finance, and data analysis.
+In NumPy, the `cos` function is used to compute the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, and signal processing. By applying the `cos` function element-wise, NumPy enables efficient and fast calculations on large datasets, making it an indispensable tool for scientific computing, data analysis, and machine learning. The ability to handle arrays and easily perform operations like cosine transformations underscores NumPy's pivotal role in scientific research, engineering, finance, and data analysis.
 
 Syntax
 The generic syntax for the NumPy math methods is as follows:
@@ -24,7 +24,7 @@ numpy.cos(argument)
 ## Example
 
 ````
-codebyte/python
+codebyte/Python
 import numpy as np
 
 # Example array of angles in radians
