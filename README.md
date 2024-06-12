@@ -5,7 +5,7 @@ Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
-  - 'NumPy cos'
+  - 'NumPy'
   - 'Math'
   - 'Methods'
   - 'Arrays'
