@@ -13,7 +13,7 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-In NumPy, the **cos** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, and signal processing, and more.
+In NumPy, the **cos** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, signal processing, and more.
 
 ## Syntax
 
@@ -22,7 +22,7 @@ The generic syntax for the NumPy math methods is as follows:
 numpy.cos(argument)
 ```
 
-- `numpy`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
+- `numpy`: The Python library that supports large, multi-dimensional arrays and matrices and a large collection of mathematical functions to operate on these arrays.
 - `cos`: The trigonometric cosine function provided by NumPy, which computes the cosine of each element in the input array.
 - `argument`: The array of angles (in radians) on which the cos function is applied to compute the cosine values.
 
