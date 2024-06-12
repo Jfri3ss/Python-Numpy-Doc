@@ -65,7 +65,6 @@ cos_values = np.cos(angles)
 print("Angles (radians):", angles)
 print("Cosine values:", cos_values)
 ```
-
 ### All Trigonometric NumPy Functions
 
 - Sine `numpy.sin()`: Computes the sine of each element in the array.
