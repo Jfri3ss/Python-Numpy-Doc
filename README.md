@@ -17,12 +17,42 @@ CatalogContent:
 In NumPy, the **cos** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, and signal processing. By applying the **cos** function element-wise, NumPy enables efficient and fast calculations on large datasets, making it an indispensable tool for scientific computing, data analysis, and machine learning. 
 
 ## Syntax
+
 The generic syntax for the NumPy math methods is as follows:
 ```pseudo
 numpy.cos(argument)
 ```
 
+- `numpy`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
+- `cos`: The trigonometric cosine function provided by NumPy, which computes the cosine of each element in the input array.
+- `argument`: The array of angles (in radians) on which the cos function is applied to compute the cosine values.
+
+
 ## Example
+
+The below example shows the `np.cos()` method in use:
+
+```py
+import numpy as np
+
+# A single angle in radians
+angle = np.pi / 4
+
+# Calculate the cosine of the angle
+cos_value = np.cos(angle)
+
+print("Angle (radians):", angle)
+print("Cosine value:", cos_value)
+```
+The output of the above code is shown below:
+
+```shell
+Angle (radians): 0.7853981633974483
+Cosine value: 0.7071067811865476
+```
+
+## Codebyte Example
+
 ```py
 import numpy as np
 
@@ -36,21 +66,7 @@ print("Angles (radians):", angles)
 print("Cosine values:", cos_values)
 ```
 
-```shell
-Result of cos: [0, 0.78539816, 1.57079633, 3.14159265]
-```
-
-## Basic Categories of Math Methods
-
-### 1. Basic Arithmetic Operations
-
-- Addition `numpy.add()`: Performs element-wise addition of arrays.
-- Subtraction `numpy.subtract()`: Performs element-wise subtraction of arrays.
-- Multiplication `numpy.multiply()`: Performs element-wise multiplication of arrays.
-- Division `numpy.divide()`: Performs element-wise division of arrays.
-- Power `numpy.power()`: Performs element-wise exponentiation of arrays.
-
-### 2. Trigonometric Functions
+### All Trigonometric NumPy Functions
 
 - Sine `numpy.sin()`: Computes the sine of each element in the array.
 - Cosine `numpy.cos()`: Computes the cosine of each element in the array.
@@ -58,20 +74,3 @@ Result of cos: [0, 0.78539816, 1.57079633, 3.14159265]
 - Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
 - Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
 - Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
-
-### 3. Exponential and Logarithmic Functions
-
-- Exponential `numpy.exp()`: Computes the exponential of each element in the array.
-- Natural Logarithm `numpy.log()`: Computes the natural logarithm of each element in the array.
-- Base-10 Logarithm `numpy.log10()`: Computes the base-10 logarithm of each element in the array.
-
-### 4. Miscellaneous Functions
-
-- Absolute Value `numpy.absolute()`: Computes the absolute value of each element in the array.
-- Square Root `numpy.sqrt()`: Computes the non-negative square root of each element in the array.
-- Ceiling `numpy.ceil()`: Rounds each element of the array to the nearest integer greater than or equal to that element.
-- Floor `numpy.floor()`: Rounds each element of the array to the nearest integer less than or equal to that element.
-- Rounding `numpy.round()`: Rounds each element of the array to the nearest integer.
-
-
-
