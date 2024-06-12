@@ -119,33 +119,38 @@ print("Cosine values:", cos_values)
 Result of cos: [0, 0.78539816, 1.57079633, 3.14159265]
 ```
 
-## Explanation:
+## Basic Categories of Math Methods
 
-1. Import NumPy: First, we import the NumPy library, which supports mathematical functions and operations on arrays.
+### 1. Basic Arithmetic Operations
 
-2. Define an Array of Angles: We create an array of angles in radians, in which the np.pi constant represents π.
+- Addition `numpy.add()`: Performs element-wise addition of arrays.
+- Subtraction `numpy.subtract()`: Performs element-wise subtraction of arrays.
+- Multiplication `numpy.multiply()`: Performs element-wise multiplication of arrays.
+- Division `numpy.divide()`: Performs element-wise division of arrays.
+- Power `numpy.power()`: Performs element-wise exponentiation of arrays.
 
-3. Compute Cosine Values: We use np.cos() to compute the cosine of each angle in the array. This method operates element-wise on the array, returning an array of the same shape with the cosine values.
+### 2. Trigonometric Functions
 
-4. Print Results: Finally, we print the original angles and their corresponding cosine values.
+- Sine `numpy.sin()`: Computes the sine of each element in the array.
+- Cosine `numpy.cos()`: Computes the cosine of each element in the array.
+- Tangent `numpy.tan()`: Computes the tangent of each element in the array.
+- Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
+- Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
+- Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
 
-5. This code snippet demonstrates how to use the np.cos() function to calculate the cosine of given angles in radians, showcasing NumPy's ability to handle array operations efficiently.
+### 3. Exponential and Logarithmic Functions
 
-## Numpy Trigonometric Functions
+- Exponential `numpy.exp()`: Computes the exponential of each element in the array.
+- Natural Logarithm `numpy.log()`: Computes the natural logarithm of each element in the array.
+- Base-10 Logarithm `numpy.log10()`: Computes the base-10 logarithm of each element in the array.
 
-- Sine numpy.sin(): Computes the sine of each element in the array.
-- Cosine numpy.cos(): Computes the cosine of each element in the array.
-- Tangent numpy.tan(): Computes the tangent of each element in the array.
-- Inverse Sine numpy.arcsin(): Computes the inverse sine of each element in the array.
-- Inverse Cosine numpy.arccos(): Computes the inverse cosine of each element in the array.
-- Inverse Tangent numpy.arctan(): Computes the inverse tangent of each element in the array.
+### 4. Miscellaneous Functions
 
-
-
-
-
-
-
+- Absolute Value `numpy.absolute()`: Computes the absolute value of each element in the array.
+- Square Root `numpy.sqrt()`: Computes the non-negative square root of each element in the array.
+- Ceiling `numpy.ceil()`: Rounds each element of the array to the nearest integer greater than or equal to that element.
+- Floor `numpy.floor()`: Rounds each element of the array to the nearest integer less than or equal to that element.
+- Rounding `numpy.round()`: Rounds each element of the array to the nearest integer.
 
 
 
