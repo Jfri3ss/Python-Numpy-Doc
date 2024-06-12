@@ -1,13 +1,4 @@
 ---
-Title: Python numpy cos function
-Description: Code example of Python numpy cos 
-Subjects: computer science, data science, machine learning
-Tags: Python, numpy, cos, numpy cos, python math
-CatalogContent: Introduction to NumPy, Mathematical Functions in NumPy, Python Math Libraries
----
-
-
----
 Title: '.abs()'
 Description: 'Returns the absolute value of the argument.'
 Subjects:
@@ -19,6 +10,19 @@ CatalogContent:
   - 'learn-java'
   - 'paths/computer-science'
 ---
+
+
+
+---
+Title: Python numpy cos function
+Description: Code example of Python numpy cos 
+Subjects: computer science, data science, machine learning
+Tags: Python, numpy, cos, numpy cos, python math
+CatalogContent: Introduction to NumPy, Mathematical Functions in NumPy, Python Math Libraries
+---
+
+
+
 
 
 
