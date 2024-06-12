@@ -91,8 +91,6 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-# NumPy cos
-
 In NumPy, the **cos** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, and signal processing. By applying the **cos** function element-wise, NumPy enables efficient and fast calculations on large datasets, making it an indispensable tool for scientific computing, data analysis, and machine learning. 
 
 ## Syntax
