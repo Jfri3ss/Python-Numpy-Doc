@@ -24,7 +24,6 @@ numpy.cos(argument)
 ## Example
 
 ````
-codebyte/Python
 import numpy as np
 
 # Example array of angles in radians
