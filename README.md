@@ -8,7 +8,7 @@ Tags:
   - 'numpy cos'
 CatalogContent:
   - 'NumPy cos'
-  - 'Python Math Libraries'
+  - 'Python NumPy Example'
 ---
 
 
