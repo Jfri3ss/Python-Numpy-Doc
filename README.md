@@ -7,7 +7,7 @@ CatalogContent: Relevant catalog content in list form.
 ---
 
 
-# Python Code Example
+## Python Code Example
 
 ````
 codebyte/python
@@ -25,7 +25,7 @@ print("Cosine values:", cos_values)
 
 
 
-#Explanation:
+## Explanation:
 
 1. Import NumPy: First, we import the NumPy library, which provides support for mathematical functions and operations on arrays.
 
