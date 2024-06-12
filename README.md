@@ -79,13 +79,16 @@ Result of addition: [11 22 33]
 Title: 'NumPy cos'
 Description: 'Returns the cos of the argument.'
 Subjects:
-  - 'Python'
+  - 'Computer Science'
+  - 'Data Science'
 Tags:
-  - 'numpy'
-  - 'numpy cos'
+  - 'NumPy'
+  - 'Math'
+  - 'Methods'
+  - 'Arrays'
 CatalogContent:
-  - 'NumPy cos'
-  - 'Python NumPy Example'
+  - 'learn-python-3'
+  - 'paths/computer-science'
 ---
 
 # NumPy cos
