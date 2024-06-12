@@ -2,7 +2,7 @@
 Title: 'NumPy cos'
 Description: 'Returns the cos of the argument.'
 Subjects:
-  - 'Computer Science'
+  - 'Python'
 Tags:
   - 'numpy'
   - 'numpy cos'
