@@ -15,19 +15,14 @@ CatalogContent:
 
 ---
 Title: 'NumPy cos'
-Description: 'Code example of Python numpy cos '
+Description: 'Returns the cos of the argument.'
 Subjects:
   - 'Computer Science'
-  -  'Data science'
-  -  'Machine learning'
 Tags:
   - 'numpy'
   - 'numpy cos'
-  - 'Python'
-  - 'math'
 CatalogContent:
-  - 'Introduction to NumPy'
-  - 'Mathematical Functions in NumPy'
+  - 'NumPy cos'
   - 'Python Math Libraries'
 ---
 
