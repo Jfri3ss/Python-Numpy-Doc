@@ -51,7 +51,7 @@ Angle (radians): 0.7853981633974483
 Cosine value: 0.7071067811865476
 ```
 
-## Code-Byte Example
+## Codebyte Example
 
 ```py
 import numpy as np
