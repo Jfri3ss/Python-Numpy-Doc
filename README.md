@@ -14,7 +14,7 @@ CatalogContent:
 
 
 ---
-Title: 'Python numpy cos function'
+Title: 'NumPy cos'
 Description: 'Code example of Python numpy cos '
 Subjects:
   - 'Computer Science'
