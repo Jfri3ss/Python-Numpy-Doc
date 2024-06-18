@@ -1,36 +1,34 @@
 ---
-Title: 'NumPy cos'
-Description: 'Returns the cos of the argument.'
+Title: '.cos()'
+Description: 'Computes the cosine of each element in an array or a single value.'
 Subjects:
   - 'Computer Science'
   - 'Data Science'
 Tags:
+  - 'Arrays'
   - 'NumPy'
-  - 'Trig'
-  - 'Math'
-  - 'Methods'
 CatalogContent:
   - 'learn-python-3'
   - 'paths/computer-science'
 ---
 
-In NumPy, the **cos** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, and signal processing, and more.
+In NumPy, the **`.cos()`** function computes the cosine of each element in an array. This trigonometric function is essential for various mathematical computations, especially in physics, engineering, computer graphics, signal processing, and more.
 
 ## Syntax
 
-The generic syntax for the NumPy math methods is as follows:
 ```pseudo
-numpy.cos(argument)
+numpy.cos(array, out = None, dtype = None)
 ```
 
-- `numpy`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
-- `cos`: The trigonometric cosine function provided by NumPy, which computes the cosine of each element in the input array.
-- `argument`: The array of angles (in radians) on which the cos function is applied to compute the cosine values.
+
+- `array`: The Python library that provides support for large, multi-dimensional arrays and matrices, along with a large collection of mathematical functions to operate on these arrays.
+- `out`: Optional. This is an alternative output array in which to place the result. It must have the same shape as the expected output. If not provided, a new array is returned.
+- `dtype`: Optional. The desired data type for the output array. If not provided, the data type of the input array is used.
 
 
 ## Example
 
-The below example shows the `np.cos()` method in use:
+The below example shows the `.cos()` function in use:
 
 ```py
 import numpy as np
@@ -44,7 +42,7 @@ cos_value = np.cos(angle)
 print("Angle (radians):", angle)
 print("Cosine value:", cos_value)
 ```
-The output of the above code is shown below:
+The above code generates the output as below:
 
 ```shell
 Angle (radians): 0.7853981633974483
@@ -65,11 +63,3 @@ cos_values = np.cos(angles)
 print("Angles (radians):", angles)
 print("Cosine values:", cos_values)
 ```
-### All Trigonometric NumPy Functions
-
-- Sine `numpy.sin()`: Computes the sine of each element in the array.
-- Cosine `numpy.cos()`: Computes the cosine of each element in the array.
-- Tangent `numpy.tan()`: Computes the tangent of each element in the array.
-- Inverse Sine `numpy.arcsin()`: Computes the inverse sine of each element in the array.
-- Inverse Cosine `numpy.arccos()`: Computes the inverse cosine of each element in the array.
-- Inverse Tangent `numpy.arctan()`: Computes the inverse tangent of each element in the array.
