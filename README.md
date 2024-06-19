@@ -51,6 +51,8 @@ Cosine value: 0.7071067811865476
 
 ## Codebyte Example
 
+Run the following code to understand how the `.cos()` function works:
+
 ```py
 import numpy as np
 
